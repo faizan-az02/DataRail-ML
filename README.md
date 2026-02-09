@@ -8,10 +8,10 @@ This repository contains a machine learning training pipeline that runs on an EC
 
 The project uses a structured dataset of anonymized adult records with a binary target column `income`. Each record contains demographic and socioeconomic features such as:
 
-- **Age and education profile** (e.g., age, education level, education years)
-- **Employment and occupation signals** (e.g., work class, occupation, hours per week)
+- **Age and education profile**
+- **Employment and occupation signals** 
 - **Marital and relationship status**
-- **Geographic indicators** (e.g., native country)
+- **Geographic indicators** 
 
 The target variable `income` indicates whether an individual's annual income is **greater than or equal to USD 50K or below that threshold**. This is treated as a standard **binary classification** problem, and the pipeline reports model accuracy and stores the best‑performing model and metrics for later inspection.
 
